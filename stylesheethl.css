@@ -1,0 +1,165 @@
+p {
+    border: 4px solid rgb(138, 109, 94);
+    background-color: rgb(199, 167, 126);
+    outline: 1px rgba(192, 123, 32, 0.822) solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(119, 71, 7);
+    text-align: justify;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
+p2  {
+    border: 4px solid rgb(138, 109, 94);
+    background-color: rgb(197, 165, 149);
+    outline: 1px rgba(192, 123, 32, 0.822) solid;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(197, 165, 149);
+    color: rgba(0, 0, 0, 0.6);
+    border: 4px solid rgb(138, 109, 94);
+    outline: 1px rgba(192, 123, 32, 0.822) solid;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+   }
+h1:hover {
+    background-color: rgb(182, 126, 93);
+}
+body {
+    background-color: rgb(233, 217, 206) ;
+    width: 600px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px 20px 20px;
+    border: 5px solid rgb(100, 64, 39);
+    border-radius: 10px;
+    
+}
+ul{
+    border: 4px solid rgb(138, 109, 94);
+    background-color: rgb(199, 167, 126);
+    outline: 1px rgba(192, 123, 32, 0.822) solid;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(119, 71, 7);
+    
+}
+img {
+    border: 4px solid rgb(138, 109, 94);
+    outline: 1px rgba(192, 123, 32, 0.822) solid;
+    background-color: rgb(114, 96, 85);
+    border-radius: 500px;
+    padding: 0 20px 20px 20px;
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clear:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  
+  .menu {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 0px;
+  }
+  
+  .menu ul li {
+    float: left;
+    width: 124px;
+    height: 140px;
+    border-color: #e3e3e3;
+    background-color: rgb(233, 217, 206);
+    transition: background-color 0.2s linear 0s;
+  }
+ .menu ul li:first-child {border-radius: 25px 0 0 25px;}
+.menu ul li:last-child {border-radius: 0 25px 25px 0;}
+  
+  .menu ul li a {
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: center;
+    text-align: center;
+  }
+  
+  .menu a i {
+    display: table-cell;
+    vertical-align: middle;
+    color: #7a705c;
+    font-size: 23px;
+    transition: all 0.2s linear 0s;
+  }
+  
+  .menu a i:before {
+    border: 2px solid;
+    border-color: #473a22;
+    border-radius: 500px;
+    width: 41px;
+    display: inline-block;
+    height: 41px;
+    line-height: 37px;
+    transition: color 0.2s linear 0s, 
+    font-size 0.2s linear 0s, 
+    border-color 0.2s linear 0.2s, 
+    height 0.2s linear 0s, 
+    width 0.2s linear 0s, 
+    line-height 0.2s linear 0s;
+  }
+  
+  .menu a .link-text {
+    position: absolute;
+    bottom: 13px;
+    right: 10px;
+    color: #7a705c;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 0.2s linear 0s;
+  }
+  
+  .menu ul li:hover {
+    background-color: #4b2f1d;
+  }
+  
+  .menu ul li:hover .link-text {
+    opacity: 0;
+  }
+  
+  .menu ul li:hover i {
+    color: #7a705c;
+    font-size: 43px;
+  }
+  
+  .menu ul li:hover i:before {
+    border-color: transparent;
+    border-radius: 500px;
+    width: 66px;
+    height: 66px;
+    line-height: 60px;
+    transition: color 0.2s linear 0s, 
+    font-size 0.2s linear 0s, 
+    border-color 0.2s linear 0s, 
+    height 0.2s linear 0s, 
+    width 0.2s linear 0s, 
+    line-height 0.2s linear 0s;
+  }
+
